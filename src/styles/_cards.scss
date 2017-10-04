@@ -1,0 +1,42 @@
+
+.cards {
+  padding-left: 0;
+  max-width: 100%;
+  list-style: none;
+  white-space: normal;
+}
+
+.card {
+  overflow: hidden;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.3);
+}
+
+.name {
+  width: 90%;
+  float: left;
+}
+
+.options {
+  width: 10%;
+  float: right;
+}
+
+.card:hover {
+  box-shadow: 0 0 0.3em .03em rgba(0,0,0,.7);
+  transition: .6s;
+}
+
+.card .delete {
+  float: right;
+  padding: 0;
+  background-color: #fdfdfd;
+  border: none;
+  cursor: pointer;
+  visibility: hidden;
+}
+.card:hover .delete {
+  visibility: visible;
+}

@@ -1,0 +1,21 @@
+.banner {
+  height: 400px; /* 100vh vh = Viewport height */
+  color: #fff;
+  background: url('https://unsplash.it/1176/784?image=0');
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+}
