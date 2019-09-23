@@ -1,3 +1,7 @@
-## Kanban Demo React
+# Kanban Demo React
 
-React, Redux, Nodejs, Socket.io and MongoDB
+React, Webpack, Redux, Redux Thunk, Redux Form, react-dnd, sass, Nodejs, ExpressJs, Socket.io, MongoDB
+
+## Demo
+
+https://kanban-demo.herokuapp.com/
